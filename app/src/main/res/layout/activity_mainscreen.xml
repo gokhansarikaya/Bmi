@@ -50,9 +50,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Weight:"
                 android:id="@+id/textView3"
-                android:textSize="@dimen/textinput_size" />
+                android:textSize="@dimen/textinput_size"
+                android:text="@string/weight" />
 
             <EditText
                 android:layout_width="wrap_content"
@@ -100,7 +100,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Height:"
+                android:text="@string/height"
                 android:id="@+id/textView4"
                 android:textSize="@dimen/textinput_size" />
 

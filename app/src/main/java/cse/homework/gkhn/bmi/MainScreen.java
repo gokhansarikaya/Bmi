@@ -63,13 +63,13 @@ public class MainScreen extends Activity{
                     double bmivalue=bd.doubleValue(); //BMI VALUE AFTER DECIMAL ADJUSTMENT
 
                             if(bd.doubleValue() < 18.5){
-                                result.setText("Your BMI: "+bmivalue+"\n" + "Underweight");
+                                result.setText(R.string.your_bmi + bmivalue+"\n" + R.string.underweight);
                             }else if (bd.doubleValue() >= 18.5 && bd.doubleValue() <= 24.9){
-                                result.setText("Your BMI: "+bmivalue+"\n" + "Normal");
+                                result.setText(R.string.your_bmi + bmivalue+"\n" + R.string.normal);
                             }else if (bd.doubleValue() >= 25 && bd.doubleValue() <= 29.9){
-                                result.setText("Your BMI: "+bmivalue+"\n" + "Overweight");
+                                result.setText(R.string.your_bmi + bmivalue+"\n" + R.string.overweight);
                             }else if(bd.doubleValue() >= 30.0){
-                                result.setText("Your BMI: "+bmivalue+"\n" + "Obese");
+                                result.setText(R.string.your_bmi + bmivalue+"\n" + R.string.obese);
                             }
                 }
             }
