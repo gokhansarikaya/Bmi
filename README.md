@@ -1,7 +1,6 @@
 # BMI
 The body mass index (BMI) is a value derived from the mass (weight) and height of an individual.
 
-The body mass index (BMI) is a value derived from the mass (weight) and height of an individual.
 
   *  BMI < 18.5 Underweight
   *  18.5 <= BMI <= 24.9 Normal
